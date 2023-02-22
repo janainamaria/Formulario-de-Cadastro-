@@ -1,0 +1,53 @@
+:root{
+    --azul:#407BFF;
+    --branco:white;
+    --fundo:#fcf0e3;
+    --cinza:rgb(158, 158, 158);
+    
+}
+
+
+.form {
+   display: grid;
+   justify-content: center;
+   text-align: inherit;
+}
+label{
+    text-align: initial;
+}
+p{
+    color: var(--azul);
+}
+
+button{
+    margin-top: 1rem;
+   
+}
+.row{
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.btn-info{
+   background-color: var(--azul);
+   color: var(--branco);
+   border: var(--azul);
+   font-weight: bold;
+}
+.btn-info:hover{
+    background-color: var(--cinza);
+    font-weight: bold;
+}
+
+.navbar-text{
+    font-size: 20px;
+    color: var(--branco);
+    
+
+}
+
+.classe{
+   background-color: var(--azul);
+  
+}
+
